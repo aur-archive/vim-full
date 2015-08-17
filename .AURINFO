@@ -1,0 +1,25 @@
+pkgbase = vim-full
+	pkgdesc = Vi Improved, a highly configurable, improved version of the vi text editor - with Ruby/Lua/Python/Perl/Netbeans
+	pkgver = 7.4.404
+	pkgrel = 4
+	url = http://www.vim.org
+	arch = i686
+	arch = x86_64
+	license = custom:vim
+	makedepends = gpm
+	makedepends = python2
+	makedepends = ruby
+	makedepends = lua
+	depends = gpm
+	provides = vim
+	provides = vim-runtime
+	conflicts = gvim
+	conflicts = vim
+	conflicts = vim-runtime
+	source = ftp://ftp.archlinux.org/other/vim/vim-7.4.404.tar.xz
+	source = ftp://ftp.archlinux.org/other/vim/vim-7.4.404.tar.xz.sig
+	source = vimrc
+	source = archlinux.vim
+
+pkgname = vim-full
+
